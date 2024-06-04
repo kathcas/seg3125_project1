@@ -1,0 +1,19 @@
+//redefined variables
+$primary: #a36692;
+$secondary: #668f82;
+$light: #FCFFF2;
+$dark: #042519;
+
+// import functions and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+    "primarydark": #4A1C3D,
+    "secondarydark": #042519,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
