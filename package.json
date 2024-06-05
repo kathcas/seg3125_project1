@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@floating-ui/react": "^0.26.16",
     "bootstrap": "^5.3.3"
   }
 }

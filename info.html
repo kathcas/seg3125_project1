@@ -59,17 +59,68 @@
         </div>
     </section>
     <section id="staff">
-        <div class="row my-5 align-items-center justify-content-center">
-            <div class="col-4">
+        <div class="container-sm">
+        <div class="row align-items-center m-3 justify-content-center">
+            <div class="col-md-3">
                 <div class="card">
-                    <div class="card-body py4">
-                        
+                    <img src="/assets/hannah nelson.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <figcaption class="blockquote-footer">Hannah Nelson, <a href="https://www.pexels.com/photo/close-up-photography-of-a-woman-near-wall-1065084/">pexels</a></figcaption>
+                        <div class="row">
+                            <div class="col-md">
+                                <h5 class="card-title text-dark">Specialist Name</h5>
+                                <h6 class="card-subtitle text-body-secondary">Position</h6>
+                            </div>
+                            <div class="col-md align-self-end text-end">
+                                <a tabindex="0" class="btn btn-primary" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="Lots of fun information about this lovely specialist that works for this company">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/assets/monstera production.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <figcaption class="blockquote-footer">Monstera Production, <a href="https://www.pexels.com/photo/smiling-ethnic-woman-with-golden-chain-looking-at-camera-5876695/">pexels</a></figcaption>
+                        <div class="row">
+                            <div class="col-md">
+                                <h5 class="card-title text-dark">Specialist Name</h5>
+                                <h6 class="card-subtitle text-body-secondary">Position</h6>
+                            </div>
+                            <div class="col-md align-self-end text-end">
+                                <a tabindex="0" class="btn btn-primary" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="Lots of fun information about this lovely specialist that works for this company">See more</a>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/assets/andrea piacquadio.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <figcaption class="blockquote-footer">Andrea Piacquando, <a href="https://www.pexels.com/photo/woman-in-collared-shirt-774909/">pexels</a></figcaption>
+                        <div class="row">
+                            <div class="col-md">
+                                <h5 class="card-title text-dark">Specialist Name</h5>
+                                <h6 class="card-subtitle text-body-secondary">Position</h6>
+                            </div>
+                            <div class="col-md align-self-end text-end">
+                                <a tabindex="0" class="btn btn-primary" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="Lots of fun information about this lovely specialist that works for this company">See more</a>                            
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
 </body>
 </html>
